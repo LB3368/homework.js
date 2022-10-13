@@ -1,16 +1,18 @@
 //Part II: JavaScript Reps
 //Easy Going
 //Write a for loop that will log the numbers 1 through 20.
-for (let i = 1; i <= 20; i++) {
-    console.log(i)
-}
+//for (let i = 1; i <= 20; i++) {
+    //console.log(i)
+//}
 //🔴 The commit message should read:
 //"Easy Going answered"
 //Get Even
 //Write a for loop that will log only the even numbers in 0 through 200.
 
 for (let c = 0; c <= 200; c++) {
-    console.log(c)
+    if (c % 2 ===0) {
+        console.log(c)
+    }
 }
 
 //Hint: Think about the increment expression.
