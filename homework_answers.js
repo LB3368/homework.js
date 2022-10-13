@@ -19,15 +19,38 @@ for (let c = 0; c <= 200; c++) {
 
 //🔴 The commit message should read:
 //"Get Even answered"
-//Fizz Buzz
+console.log('\n\n================================\n\n')
+
+console.log('\n\n===================Fizz Buzz===================\n\n')
 //This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short.
 
-/*Write a javascript application that logs all numbers from 1 - 100.
-If a number is divisible by 3 log "Fizz" instead of the number.
-If a number is divisible by 5 log "Buzz" instead of the number.
-If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
+//Write a javascript application that logs all numbers from 1 - 100.
+
+//If a number is divisible by 3 log "Fizz" instead of the number.
+//If a number is divisible by 5 log "Buzz" instead of the number.
+//If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
+const fb = [];
+// ADD CODE HERE
+for(let i = 1; i <= 100; i++){
+	if((i % 3 === 0) && (i % 5 ===0)){
+    fb.push("fizzbuzz")
+  }else if(i % 3 === 0){
+    fb.push("fizz");
+  } else if(i % 5 === 0){
+    fb.push("buzz") 
+  }else {
+    fb.push(i)
+  }
+}
+  
+console.log(fb)
+
+console.log('\n\n==============================\n\n')
+/*
 🔴 The commit message should read:
 "Fizz Buzz answered"
+
+
 Wild Wild Life
 Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
 
