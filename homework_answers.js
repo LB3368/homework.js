@@ -32,7 +32,7 @@ console.log('\n\n===================Fizz Buzz===================\n\n')
 const fb = [];
 // ADD CODE HERE
 for(let i = 1; i <= 100; i++){
-	if((i % 3 === 0) && (i % 5 ===0)){
+	if((i % 3 === 0) && (i % 5 === 0)){
     fb.push("fizzbuzz")
   }else if(i % 3 === 0){
     fb.push("fizz");
@@ -46,24 +46,69 @@ for(let i = 1; i <= 100; i++){
 console.log(fb)
 
 console.log('\n\n==============================\n\n')
+
+//🔴 The commit message should read:
+//"Fizz Buzz answered"
+
+
+console.log('\n\n================Wild Wild Life==================')
+//Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
+
+const wolfy = {
+    name: "Wolfy", 
+    species: "wolf", 
+    age: 16, 
+    hometown: "Yukon Territory"
+}
+const sharky = {
+    name: "Sharky", 
+    species: "shark", 
+    age: 20, 
+    hometown:"Left Coast"
+}
+
+const plantee = {
+    name: "Plantee", 
+    species: "plant",  
+    age: 5000, 
+    hometown: "Mordor"
+}
+
+const porgee = {
+    name: "Porgee", 
+    species: "Porg", 
+    age: 186, 
+    hometown: "Ahch-To"
+}
+
+const dart = {
+    name:"D'Art", 
+    species: "Demogorgan Dog",
+    age: 2, 
+    hometown: ["Upside Down"]
+}
+
+
+//Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+plantee.age++
+console.log(plantee)
+
+//Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+
+wolfy.hometown = "Gotham City"
+console.log(wolfy)
+//Give D'Art a second hometown by adding "Hawkins"
+dart.hometown.push("Hawkins")
+console.log(dart)
+
+//Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
+
+wolfy.name = "Gameboy"
+console.log(wolfy)
+//🔴 The commit message should read:
+//
+console.log('\n\n======================================\n\n')
 /*
-🔴 The commit message should read:
-"Fizz Buzz answered"
-
-
-Wild Wild Life
-Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
-
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-const sharky = ["Sharky", "shark", 20, "Left Coast"]
-const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
-Plantee just had her birthday; change Plantee's array to reflect her being a year older.
-Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
-Give D'Art a second hometown by adding "Hawkins"
-Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
-🔴 The commit message should read:
 "Wild Wild Life answered"
 Yell at the Ninja Turtles
 Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
